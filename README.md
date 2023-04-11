@@ -1,1 +1,1 @@
-# ImageClassificationOfBillionaires
+# Billionaires Image Classifier
