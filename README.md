@@ -1,4 +1,4 @@
-# Billionaires Image Classifier
+# FoundersFinder: Entrepreneurs Image Classifier
 
 This project focuses on creating an image classification model to classify images of five entrepreneurs collected from the internet. The goal is to develop a model that can accurately identify and classify the images of these entrepreneurs. The following steps were undertaken in this project:
 
