@@ -58,17 +58,17 @@ A web-based demonstration of the image classification can be accessed from this 
 
 ## Results and Evaluation Criterion
 
-Based on the evaluation results, the best-performing model was **XGBoost** with R2 score of **0.82**
+CNN has achieved an accuracy of over 95% on the testing data. Here is the confusion matrix:
 
 ![Image Description](image/image_result.png)
 
 ## Future Improvements
 
 Here are some potential areas for future improvements in the project:
-
-* Incorporate more features related to delivery partners, weather conditions, or traffic patterns to enhance prediction accuracy.
-* Conduct more comprehensive data analysis to identify additional patterns or correlations that can contribute to better predictions.
-* Fine-tune the model parameters to potentially improve performance.
+* Expand the dataset: Collect a larger and more diverse set of images to improve generalization and robustness.
+* Fine-tuning and Transfer Learning: Utilize pre-trained models like ImageNet and fine-tune them on the entrepreneur image dataset for improved performance.
+* Ensemble Learning: Combine multiple models through techniques like bagging or boosting to enhance accuracy and reliability.
+* Regularization Techniques: Apply dropout, L1 or L2 regularization, or batch normalization to mitigate overfitting and improve generalization.
 
 
 
