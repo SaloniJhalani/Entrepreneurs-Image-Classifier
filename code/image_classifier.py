@@ -35,7 +35,7 @@ if __name__ == "__main__":
     for person, image_path in famous_people.items():
         images.append(image_path)
         persons.append(person)
-    st.image(images, width=275, caption=persons, )
+    st.image(images, width=250, caption=persons, )
 
     # Upload and classify the user's image
     st.header("Upload Entrepreneurs Image")
