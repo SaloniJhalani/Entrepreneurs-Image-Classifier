@@ -44,16 +44,14 @@ This project focuses on creating an image classification model to classify image
 
   
 ## Project Overview
-This project focuses on developing a food delivery time prediction model. The goal is to estimate the time it takes for food to be delivered to customers accurately. By accurately predicting delivery times, food delivery platforms can enhance customer experience, optimize delivery logistics, and improve overall operational efficiency.
+This project focuses on creating an image classification model to classify images of five entrepreneurs collected from the internet. The goal is to develop a model that can accurately identify and classify the images of these entrepreneurs. 
 
 ## Data Source
-The dataset used for this project can be obtained from [here](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset).
-
-It contains relevant information such as order details, location, city, delivery person information, weather conditions and actual delivery times.
+The dataset used for this project was collected from the Internet, specifically using the 'Fatkun Batch Download Image', Google chrome extension. This extension facilitated the collection of diverse images featuring various entrepreneurs, providing a rich and comprehensive dataset for the project.
 
 ## Website Link
 
-A web-based demonstration of the food delivery time prediction model can be accessed from this [link](https://food-delivery-time-prediction.streamlit.app).
+A web-based demonstration of the image classification can be accessed from this [link]([https://food-delivery-time-prediction.streamlit.app](https://entrepreneurs-image-classifier.streamlit.app).
 
 ## Implementation Details
 
