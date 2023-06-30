@@ -51,15 +51,16 @@ The dataset used for this project was collected from the Internet, specifically 
 
 ## Website Link
 
-A web-based demonstration of the image classification can be accessed from this [link]([https://food-delivery-time-prediction.streamlit.app](https://entrepreneurs-image-classifier.streamlit.app).
+A web-based demonstration of the image classification can be accessed from this [link]([https://entrepreneurs-image-classifier.streamlit.app]).
 
 ## Implementation Details
 
 ### Methods Used
-* Machine Learning
-* Data Cleaning
-* Feature Engineering
-* Regression Algorithms
+* Deep Learning
+* Convulational Neural Network
+* Haarcascades
+* Image Classification
+* Data Collection
 
 ### Technologies
 * Python
@@ -68,15 +69,14 @@ A web-based demonstration of the image classification can be accessed from this 
 
 ### Python Packages Used
 * Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Seaborn
-* xgboost
+* tensorflow
+* keras
+* opencv
+* Pillow
 
 ## Steps Followed
 
-1. Data Collection: Gathered the food delivery dataset from the provided data source.
+1. Data Collection: Gathered the image data from internet.
 2. Data Preprocessing: Performed data cleaning to handle missing values, outliers, and inconsistencies in the dataset. Conducted feature engineering to extract relevant features for the prediction model.
 3. Model Development: Utilized regression algorithms to train a food delivery time prediction model. Explored different models such as linear regression, decision trees, random forests, xgboost to identify the best-performing model.
 4. Model Evaluation: Evaluated the performance of the models using appropriate metrics such as mean squared error (MSE),root mean squared error (RMSE) and R2 score.
