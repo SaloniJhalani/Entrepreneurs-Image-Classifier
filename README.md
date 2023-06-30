@@ -76,11 +76,13 @@ A web-based demonstration of the image classification can be accessed from this 
 
 ## Steps Followed
 
-1. Data Collection: Gathered the image data from internet.
-2. Data Preprocessing: Performed data cleaning to handle missing values, outliers, and inconsistencies in the dataset. Conducted feature engineering to extract relevant features for the prediction model.
-3. Model Development: Utilized regression algorithms to train a food delivery time prediction model. Explored different models such as linear regression, decision trees, random forests, xgboost to identify the best-performing model.
-4. Model Evaluation: Evaluated the performance of the models using appropriate metrics such as mean squared error (MSE),root mean squared error (RMSE) and R2 score.
-5. Deployment: Deployed the food delivery time prediction model as a standalone application for real-time predictions.
+1. Data Collection: A dataset was collected from the internet, capturing images of various individuals, including the five specific entrepreneurs of interest.
+2. Data Preprocessing: The collected images underwent preprocessing steps. The Haar Cascade face detection algorithm was applied to extract faces from the images. These face images were manually verified, ensuring that only the faces of the five entrepreneurs remained, removing any other individuals. Additionally, poor quality images were eliminated to enhance data quality.
+3. Data Formatting: The preprocessed images were then converted into a format suitable for input into neural networks, ensuring compatibility and efficient processing.
+4. Balancing the Dataset: As the dataset might have been imbalanced with varying numbers of images for each entrepreneur, the SMOTE (Synthetic Minority Over-sampling Technique) algorithm was utilized to balance the dataset, generating synthetic samples to augment the minority class.
+5. Training with Convolutional Neural Networks (CNN): The preprocessed and balanced dataset was used to train a CNN model, leveraging its ability to learn intricate features and patterns in images.
+6. Validation and Accuracy: The trained model was evaluated on a separate test set to assess its performance. Achieving over 95% accuracy, the model demonstrated its effectiveness in accurately classifying the images of the five entrepreneurs.
+7. Web App Development: A web application was created using Streamlit, enabling users to upload images and receive responses identifying the individuals in the images, thereby providing a user-friendly interface to interact with the image classification model.
 
 ## Results and Evaluation Criterion
 
